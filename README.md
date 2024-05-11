@@ -34,7 +34,13 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 ```
-1.Define Module : Define a Verilog module for SR flip-flop with inputs (S,R) and outputs (Q,Q_bar). 2.Declare Inputs and Outputs : Declare input and output ports for the module. 3.Implement Flip-Flop Logic: Write Verilog code to implement the SR flip-flop logic based on its functional table. 4.Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the SR flip-flop under different input conditions. 5.Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (S, R) to cover all possible input states. 6.Verify Output Behavior: Verify that the output behavior of the SR flip-flop matches the expected behavior defined by its functional table. 7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
+1. Define Module : Define a Verilog module for SR flip-flop with inputs (S,R) and outputs (Q,Q_bar).
+2. Declare Inputs and Outputs : Declare input and output ports for the module.
+3. Implement Flip-Flop Logic: Write Verilog code to implement the SR flip-flop logic based on its functional table.
+4. Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the SR flip-flop under different input conditions.
+5. Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (S, R) to cover all possible input states.
+6. Verify Output Behavior: Verify that the output behavior of the SR flip-flop matches the expected behavior defined by its functional table.
+7. Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input 
 ```
 
 **PROGRAM**
@@ -65,11 +71,13 @@ endmodule
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![image](https://github.com/aishaishwaryav/SR-FLIPFLOP-USING-CASE/assets/151565589/3e8e81ec-c7c0-4169-b685-a9c6642c7dfe)
+![image](https://github.com/aishaishwaryav/SR-FLIPFLOP-USING-CASE/assets/151565589/18fe22f3-52ff-4863-a102-25027d17224e)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![image](https://github.com/aishaishwaryav/SR-FLIPFLOP-USING-CASE/assets/151565589/601cc22b-08ea-4afc-a890-231052247f35)
+![image](https://github.com/aishaishwaryav/SR-FLIPFLOP-USING-CASE/assets/151565589/0b173b4e-a749-4fd6-b31f-13339a38f974)
+
 
 **RESULTS**
 Thus the program to implement a SR flipflop using verilog and validating their functionality using their functional tables is successfully completed.
